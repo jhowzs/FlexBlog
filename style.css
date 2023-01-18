@@ -276,7 +276,7 @@ img {
 
 .quality-item h2::before {
   content: "";
-  display: block;
+  display: inline-block;
   width: 8px;
   height: 30px;
   margin-right: 10px;
@@ -361,4 +361,20 @@ img {
   cursor: pointer;
   border: 0px;
   padding: 15px 10px;
+}
+
+/* Footer */
+
+.footer {
+  display: flex;
+  align-items: center;
+  background: #2c70ff;
+  height: 200px;
+}
+
+.footer p {
+  flex: 1;
+  text-align: center;
+  font-size: 2.25rem;
+  color: #122ab2;
 }
