@@ -81,3 +81,13 @@ img {
   font-weight: bold;
   margin: 0 10px;
 }
+
+/* introduction */
+
+.introduction {
+  font-size: 3rem;
+  line-height: 1;
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 60px 10px;
+}
