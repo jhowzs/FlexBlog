@@ -15,3 +15,28 @@ img {
   display: block;
   max-width: 100%;
 }
+
+/* superInfo */
+
+.superInfo-bg {
+  background: #122ab2;
+  color: #ffffff;
+}
+
+.superInfo {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.superInfo a,
+.superInfo p {
+  margin: 0 10px 10px 10px;
+}
+
+.superInfo a {
+  color: #ffffff;
+}
